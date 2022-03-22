@@ -1,42 +1,23 @@
 import { useParams } from "react-router-dom";
 import { useState } from "react";
-import Leccion1 from "../components/Curso1/Leccion1";
-import Leccion2 from "../components/Curso1/Leccion2";
-import Leccion3 from "../components/Curso1/Leccion3";
-
-const lecciones = [
-  {
-    id: 1,
-    title: "Leccion 1",
-    component: <Leccion1 />,
-  },
-  {
-    id: 2,
-    title: "Leccion 2",
-    component: <Leccion2 />,
-  },
-  {
-    id: 3,
-    title: "Leccion 3",
-    component: <Leccion3 />,
-  },
-];
+import json from "../../cursos.json";
+import Lection from "../components/Lection";
 
 export default function CursoPage() {
   const [index, setIndex] = useState(0);
-
-  const leccion = lecciones[index];
-
   let params = useParams();
+
+  const curso = json[params.id];
+  const lection = curso.lections[index];
 
   return (
     <div>
       <h3>Este es el curso: {params.id}</h3>
       <div className="row">
         <div className="list-group col-4">
-          {lecciones.map((leccion, i) => (
+          {curso.lections.map((leccion, i) => (
             <button
-              key={leccion.id}
+              key={i}
               type="button"
               className={`list-group-item list-group-item-action ${
                 index == i ? "active" : ""
@@ -48,7 +29,7 @@ export default function CursoPage() {
           ))}
         </div>
 
-        <div className="col-8">{leccion.component}</div>
+        <Lection lection={lection} />
       </div>
     </div>
   );

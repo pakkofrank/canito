@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Anime",
+    "lections": [
+      {
+        "title": "Ecchi",
+        "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure sequi tenetur quae corrupti rem quidem odit! Quis, quo quia, harum consequatur a reprehenderit quibusdam neque officiis deserunt, non quaerat veritatis!",
+        "img": "https://www.geekmi.news/__export/1636060699254/sites/debate/img/2021/11/04/raphtalia.jpg_1339198940.jpg"
+      },
+      {
+        "title": "Isekai",
+        "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure sequi tenetur quae corrupti rem quidem odit! Quis, quo quia, harum consequatur a reprehenderit quibusdam neque officiis deserunt, non quaerat veritatis!",
+        "img": "https://www.geekmi.news/__export/1636060699254/sites/debate/img/2021/11/04/raphtalia.jpg_1339198940.jpg"
+      },
+      {
+        "title": "Comedia",
+        "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure sequi tenetur quae corrupti rem quidem odit! Quis, quo quia, harum consequatur a reprehenderit quibusdam neque officiis deserunt, non quaerat veritatis!",
+        "img": "https://www.geekmi.news/__export/1636060699254/sites/debate/img/2021/11/04/raphtalia.jpg_1339198940.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Inglés",
+    "lections": [
+      {
+        "title": "Grammar",
+        "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure sequi tenetur quae corrupti rem quidem odit! Quis, quo quia, harum consequatur a reprehenderit quibusdam neque officiis deserunt, non quaerat veritatis!",
+        "img": "https://www.geekmi.news/__export/1636060699254/sites/debate/img/2021/11/04/raphtalia.jpg_1339198940.jpg"
+      },
+      {
+        "title": "Vocabulary",
+        "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure sequi tenetur quae corrupti rem quidem odit! Quis, quo quia, harum consequatur a reprehenderit quibusdam neque officiis deserunt, non quaerat veritatis!",
+        "img": "https://www.geekmi.news/__export/1636060699254/sites/debate/img/2021/11/04/raphtalia.jpg_1339198940.jpg"
+      },
+      {
+        "title": "Phrasal verbs",
+        "content": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure sequi tenetur quae corrupti rem quidem odit! Quis, quo quia, harum consequatur a reprehenderit quibusdam neque officiis deserunt, non quaerat veritatis!",
+        "img": "https://www.geekmi.news/__export/1636060699254/sites/debate/img/2021/11/04/raphtalia.jpg_1339198940.jpg"
+      }
+    ]
+  }
+]

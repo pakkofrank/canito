@@ -5,6 +5,7 @@ import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import CursosPage from "./pages/CursosPage";
 import CursoPage from "./pages/CursoPage";
+import "./public/style.css";
 
 ReactDOM.render(
   <BrowserRouter>
