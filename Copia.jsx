@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useState } from "react";
-
+//segundo metodo
 const lecciones = [
   {
     id: 1,
